@@ -1,0 +1,40 @@
+{
+    "master_po": {
+      "kode_po": 1,
+      "no_po": "2000000001",
+      "tgl_po": "2020-09-24",
+      "total_po": 232500.00,
+      "approval": "Y",
+      "tgl_approval": "2020-10-11",
+      "userid": "Agus"
+    },
+    "detail_po": [
+      {
+        "kode_po": 1,
+        "id_po": 0,
+        "kode_item": "I.00000018",
+        "deskripsi": "BB 4.2 BTG",
+        "satuan": "BTG",
+        "qty": 45,
+        "harga": 2500.00
+      },
+      {
+        "kode_po": 1,
+        "id_po": 1,
+        "kode_item": "I.00000218",
+        "deskripsi": "BB 4.7 BTG",
+        "satuan": "BTG",
+        "qty": 21,
+        "harga": 5000.00
+      },
+      {
+        "kode_po": 1,
+        "id_po": 2,
+        "kode_item": "I.00000312",
+        "deskripsi": "BB 16 PSI BTG",
+        "satuan": "BTG",
+        "qty": 10,
+        "harga": 1500.00
+      }
+    ]
+  }

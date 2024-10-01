@@ -1,0 +1,25 @@
+BEGIN
+    // Input deret pertama, kedua, dan nilai bilangan ke-x
+    PRINT "Input deret pertama: "
+    READ A
+    PRINT "Input deret kedua: "
+    READ B
+    PRINT "Value x: "
+    READ n
+
+    // Inisialisasi list untuk menyimpan deret
+    deret_bilangan = []
+    
+    // Tambahkan A dan B ke dalam deret
+    ADD A to deret_bilangan
+    ADD B to deret_bilangan
+    
+    // Hitung dan tambahkan bilangan selanjutnya hingga n
+    FOR i FROM 3 TO n DO
+        next_value = deret_bilangan[i-2] + (B - A) // B - A adalah selisih antar deret
+        ADD next_value to deret_bilangan
+    END FOR
+    
+    // Tampilkan deret bilangan
+    PRINT "Deret bilangan: ", deret_bilangan
+END
